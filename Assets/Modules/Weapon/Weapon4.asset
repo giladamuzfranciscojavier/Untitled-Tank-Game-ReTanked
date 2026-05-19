@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602eb75558dc90141901408e16baafd0, type: 3}
+  m_Name: Weapon4
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  sprite: {fileID: -262706625, guid: e91047032d96bdf4ab27bb44635cd4c0, type: 3}
+  bullet: {fileID: 1630999684871812176, guid: 6fb2e436bf7584c4087d963a55538163, type: 3}
+  weight: 2
+  damage: 50
+  heat: 0
+  cooldown: 0
+  hasHeat: 0
+  displayName: Fuller Auto

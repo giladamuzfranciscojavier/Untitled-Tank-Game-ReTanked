@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f8e9121e302bd48b032a12d4315fda, type: 3}
+  m_Name: fastEngine
+  m_EditorClassIdentifier: Assembly-CSharp::testEngine
+  sprite: {fileID: -1850761702398209728, guid: 7c5452d94746e1c4885bd6d4dd18f022, type: 3}
+  hp: 50
+  armor: 50
+  weight: 2
+  speed: 4000
+  displayName: Fast Engine
