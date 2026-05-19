@@ -4,8 +4,12 @@ Debido a cuestiones laborales, personales, y al resto de actividades del curso, 
 
 ## Lo que hay
 La mayoría de mecánicas básicas funcionan. El tanque del jugador es completamente modular (se carga en tiempo de ejecución en base a los módulos cargados en el game manager en formato de scriptable objects, incluyendo los sprites mostrados), teniendo cada parte su propia salud, armadura y peso (el peso del tanque será la suma de sus partes); y el personaje del jugador puede salir del mismo y volver a entrar si se encuentra lo bastante cerca.
+
+Si bien están hechos de formaa apresurada y la calidad de los mismos es dudosa, todos los sprites (exceptuando los básicos de Unity) son de elaboración propia.
 ## Lo que no hay
-Sin embargo, falta por implementar la mecánica de reparación del tanque y la posibilidad de invocar un nuevo tanque si el anterior está demasiado dañado o se encuentra demasiado lejos, lo que puede llevar con facilidad a un softlock (los enemigos destruyen el motor y/o las orugas, el tanque no puede moverse, ser reparado o sustituido, por lo que el personaje queda expuesto hasta su muerte)
+Sin embargo, falta por implementar la mecánica de reparación del tanque y la posibilidad de invocar un nuevo tanque si el anterior está demasiado dañado o se encuentra demasiado lejos, lo que puede llevar con facilidad a un softlock (los enemigos destruyen el motor y/o las orugas, el tanque no puede moverse, ser reparado o sustituido, por lo que el personaje queda expuesto hasta su muerte).
+
+La versión actual tampoco cuenta con sonidos, puesto que crear o encontrar efectos de sonido y ajustarlos correctamente es un proceso que requiere de bastante tiempo, y el resultado de querer apurar dicho proceso puede ser cómicamente malo en el mejor de los casos, y causar malestar físico en el peor.
 ## (Algunos) Problemas conocidos
 - La cámara se encuentra demasiado cerca del jugador, impidiendo ver más allá de lo que está justo al lado del mismo. Puesto que cinemachine no permite (o la opción no está clara) alejar directamente la cámara, sería necesario ajustar los propios sprites, aunque ello conllevaría ajustar el nivel al completo
 - Interfaz extremadamente básica, basada enteramente en texto, incluida solamente por la necesidad de mostrar información crítica (salud y puntuación). Desarrollar una interfaz más visual y elaborada no sería excesivamente complejo, pero llevaría algo de tiempo
